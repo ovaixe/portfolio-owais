@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { useMediaQuery } from "@material-ui/core";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function Navbar() {
   const isDesktop = useMediaQuery("(min-width:600px)");
