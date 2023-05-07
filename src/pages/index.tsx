@@ -20,7 +20,7 @@ export default function Home() {
         <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
           I&#39;m a software developer with 2+ years of experience in building web
           applications. I specialize in both frontend and backend development,
-          with expertise in modern web technologies such as Nest.js, Next.js,
+          with expertise in modern web technologies such as Django, Nest.js, Next.js,
           React.
         </div>
         <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
