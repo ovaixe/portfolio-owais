@@ -1,0 +1,19 @@
+{
+    "skills": [
+        {
+            "name": "Frontend Development",
+            "discription": "I specialize in creating user interfaces that are not only visually appealing, but also highly functional and easy to use.",
+            "logo": "/front.avif"
+        },
+        {
+            "name": "Backend Development",
+            "discription": "I specialize in creating robust, scalable APIs and integrating them with frontend systems to create dynamic, data-driven web applications.",
+            "logo": "/back.avif"
+        },
+        {
+            "name": "Web Scraping and Automation",
+            "discription": "I have experience using a range of tools and technologies to collect and analyze data from the web, automate repetitive tasks, and streamline workflows.",
+            "logo": "/auto.avif"
+        }
+    ]
+}

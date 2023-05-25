@@ -1,0 +1,18 @@
+{
+    "companies" : [
+        {
+            "name": "MediBuddy",
+            "role": "SDE Intern",
+            "startDate": "Jan 2023",
+            "endDate": "Present",
+            "location": "Bangalore, India"
+        },
+        {
+            "name": "NamaSYS",
+            "role": "Python Developer Intern",
+            "startDate": "Jan 2022",
+            "endDate": "Mar 2022",
+            "location": "New Delhi, India"
+        }
+    ]
+}
