@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuilding, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Bio from "@/components/Bio";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";

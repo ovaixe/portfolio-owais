@@ -5,14 +5,28 @@
             "role": "SDE Intern",
             "startDate": "Jan 2023",
             "endDate": "Present",
-            "location": "Bangalore, India"
+            "location": "Bangalore, India",
+            "description" : [
+                "Developed and maintained a full-stack web application using Next.js on the frontend and Nest.js on the backend.",
+                "Created a responsive user interface using modern web technologies, including React and Tailwind CSS, that allowed for optimal user interaction and seamless navigation.",
+                "Utilized event logging to handle user interactions and gather data on user behavior.",
+                "Collaborated with a team of developers and designers to gather requirements, design, and develop new features and enhancements.",
+                "Implemented various APIs with authentication to enable secure communication between the frontend and backend.",
+                "Integrated new APIs into an existing project to improve existing features and functionality."
+            ]
         },
         {
             "name": "NamaSYS",
             "role": "Python Developer Intern",
             "startDate": "Jan 2022",
             "endDate": "Mar 2022",
-            "location": "New Delhi, India"
+            "location": "New Delhi, India",
+            "description": [
+                "Developed efficient programs to automate tasks involving scraping data etc.",
+                "Successfully debugged and resolved code issues related to data storage in the database, ensuring accurate data management.",
+                "Worked with different APIs and SQL databases to retrieve and store data for data analysis.",
+                "Implemented an end-to-end solution on Microsoft Azure, involving the creation of virtual machines and Developed a automation script to retrieve data from APIs and securely store it in Azure Blob Storage."
+            ]
         }
     ]
 }
