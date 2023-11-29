@@ -20,7 +20,7 @@ export default function Navbar() {
               />
             </div>
           </Link>
-          <Link href="mailto:owaisbhat996@outlook.com">
+          <Link href="mailto:ovaixe@gmail.com">
             <div className="text-sm text-lightBeforeHover hover:text-lightText dark:text-darkBeforeHover dark:hover:text-darkText">
               Get in touch
             </div>
