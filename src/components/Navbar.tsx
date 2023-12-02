@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="sticky top-0 z-50 w-full h-20 flex px-2 justify-center bg-lightBG dark:bg-darkBG">
       <div className="w-full lg:w-[80%] h-20 py-2 border-b-2 border-[#606060] flex flex-row justify-between items-center">
         <div className="flex flex-row justify-cneter items-center space-x-5">
-          <Link href="mailto:owaisbhat996@outlook.com">
+          <Link href="mailto:ovaixe@gmail.com">
             <div className="w-12 h-12 rounded-full flex justify-center items-center border-2 border-[#898888] bg-[#EBE9E9] dark:bg-[#222121]">
               <FontAwesomeIcon
                 icon={faEnvelope}
