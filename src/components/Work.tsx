@@ -1,9 +1,6 @@
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBuilding,
-  faCircleChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { FaBuilding } from "react-icons/fa6";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 import work from "../../data/work.json";
 
 interface TabPanelProps {
@@ -14,12 +11,12 @@ function TabPanel(props: TabPanelProps) {
   const { index } = props;
 
   return (
-    <div className="w-full place-self-center bg-[#e6e3e3] dark:bg-[#222121] border-2 dark:border-lightText rounded-lg p-2 space-y-5">
+    <div className="w-full flex flex-col place-self-center bg-[#e6e3e3] dark:bg-[#222121] border-2 dark:border-lightText rounded-lg p-2 space-y-5">
       <div className="text-lg text-lightText dark:text-darkText">
         {work.companies[index].role}
       </div>
       <div className="text-sm text-lightText dark:text-darkText flex flex-row">
-        <FontAwesomeIcon icon={faBuilding} className="text-[#545659] w-5 h-5" />
+        <FaBuilding className="text-[#545659] w-5 h-5" />
         {work.companies[index].name}
       </div>
       <div className="flex flex-row justify-between items-center space-x-5">
@@ -34,10 +31,7 @@ function TabPanel(props: TabPanelProps) {
         {work.companies[index].description.map((item, index) => (
           <div key={index} className="flex flex-row space-x-2 items-start">
             <div className="pt-1">
-              <FontAwesomeIcon
-                icon={faCircleChevronRight}
-                className="text-[#545659] w-4 h-4"
-              />
+              <IoIosArrowDroprightCircle className="text-[#545659] w-4 h-4" />
             </div>
             <div className="text-lightText dark:text-darkText">{item}</div>
           </div>
@@ -57,9 +51,12 @@ export default function Work() {
       </h1>
 
       <div className="flex flex-col space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row">
-        <div className="flex flex-row space-x-5 lg:space-x-0 lg:space-y-3 lg:flex-col">
+        <div className="flex flex-row gap-5 lg:gap-0 lg:space-y-3 lg:flex-col">
           {work.companies.map((company, index) => (
-            <div key={index} className="flex flex-row space-x-2 items-center">
+            <div
+              key={index}
+              className="flex flex-row space-x-2 items-center"
+            >
               <div
                 className={`w-2 rounded-full ${
                   index === value

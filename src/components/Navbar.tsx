@@ -1,8 +1,8 @@
 import * as React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function Navbar() {
@@ -14,10 +14,7 @@ export default function Navbar() {
         <div className="flex flex-row justify-cneter items-center space-x-5">
           <Link href="mailto:ovaixe@gmail.com">
             <div className="w-12 h-12 rounded-full flex justify-center items-center border-2 border-[#898888] bg-[#EBE9E9] dark:bg-[#222121]">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="text-[#545659] w-5 h-5"
-              />
+              <MdEmail className="text-[#545659] w-5 h-5" />
             </div>
           </Link>
           <Link href="mailto:ovaixe@gmail.com">
@@ -34,23 +31,17 @@ export default function Navbar() {
             {isDesktop ? (
               "GitHub"
             ) : (
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="text-[#545659] w-5 h-5"
-              />
+              <FaGithub className="text-[#545659] w-5 h-5" />
             )}
           </Link>
           <Link
             href={"https://linkedin.com/in/ovaixe"}
             className="text-sm text-lightBeforeHover hover:text-lightText dark:text-darkBeforeHover dark:hover:text-darkText"
           >
-           {isDesktop ? (
+            {isDesktop ? (
               "Linkedin"
             ) : (
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="text-[#545659] w-5 h-5"
-              />
+              <FaLinkedin className="text-[#545659] w-5 h-5" />
             )}
           </Link>
           <Link
@@ -60,10 +51,7 @@ export default function Navbar() {
             {isDesktop ? (
               "Twitter"
             ) : (
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="text-[#545659] w-5 h-5"
-              />
+              <FaXTwitter className="text-[#545659] w-5 h-5" />
             )}
           </Link>
         </div>

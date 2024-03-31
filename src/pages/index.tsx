@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { MdEmail } from "react-icons/md";
 import Bio from "@/components/Bio";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";
@@ -11,6 +10,19 @@ export default function Home() {
       <Bio />
       <Work />
       <Skills />
+      <div className="flex flex-col justify-center items-center mt-32 gap-5">
+        <h1 className="text-2xl lg:text-3xl font-bold lg:font-black text-center text-lightText text-transparent bg-clip-text bg-gradient-to-r from-lightText to-[#626161] dark:bg-gradient-to-r dark:from-darkText dark:to-[#424141]">
+          My Resume
+        </h1>
+        <Link
+          href="resume_bhat_owais.pdf"
+          download
+          target="blank"
+          className="text-lg text-lightBeforeHover dark:text-darkBeforeHover border-2 dark:border-lightText rounded-lg py-3 px-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 duration-300"
+        >
+          <button>Click here to download Resume</button>
+        </Link>
+      </div>
       <div className="flex flex-col justify-center items-center mt-32 space-y-20">
         <h1 className="text-2xl lg:text-3xl font-bold lg:font-black text-center text-lightText text-transparent bg-clip-text bg-gradient-to-r from-lightText to-[#626161] dark:bg-gradient-to-r dark:from-darkText dark:to-[#424141]">
           Tell me about your next project
@@ -20,10 +32,7 @@ export default function Home() {
             <div className="text-lg text-lightBeforeHover dark:text-darkBeforeHover">
               Get in Touch
             </div>
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              className="text-[#545659] w-5 h-5"
-            />
+            <MdEmail className="text-[#545659] w-5 h-5" />
           </div>
         </Link>
       </div>

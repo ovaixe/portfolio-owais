@@ -1,32 +1,45 @@
 {
-    "companies" : [
-        {
-            "name": "MediBuddy",
-            "role": "SDE Intern",
-            "startDate": "Jan 2023",
-            "endDate": "May 2023",
-            "location": "Bangalore, India",
-            "description" : [
-                "Developed and maintained a full-stack web application using Next.js on the frontend and Nest.js on the backend.",
-                "Created a responsive user interface using modern web technologies, including React and Tailwind CSS, that allowed for optimal user interaction and seamless navigation.",
-                "Utilized event logging to handle user interactions and gather data on user behavior.",
-                "Collaborated with a team of developers and designers to gather requirements, design, and develop new features and enhancements.",
-                "Implemented various APIs with authentication to enable secure communication between the frontend and backend.",
-                "Integrated new APIs into an existing project to improve existing features and functionality."
-            ]
-        },
-        {
-            "name": "NamaSYS",
-            "role": "Python Developer Intern",
-            "startDate": "Jan 2022",
-            "endDate": "Mar 2022",
-            "location": "New Delhi, India",
-            "description": [
-                "Developed efficient programs to automate tasks involving scraping data etc.",
-                "Successfully debugged and resolved code issues related to data storage in the database, ensuring accurate data management.",
-                "Worked with different APIs and SQL databases to retrieve and store data for data analysis.",
-                "Implemented an end-to-end solution on Microsoft Azure, involving the creation of virtual machines and Developed a automation script to retrieve data from APIs and securely store it in Azure Blob Storage."
-            ]
-        }
-    ]
+  "companies": [
+    {
+      "name": "The Tarzan Way",
+      "role": "Frontend Developer",
+      "startDate": "Jan 2024",
+      "endDate": "Present",
+      "location": "Noida, Uttar Pradesh, India",
+      "description": [
+        "Implemented enhancements and resolved issues within the frontend project, introducing user-centric features aimed at facilitating streamlined data manipulation for enhanced usability.",
+        "Successfully deployed updates without any downtime, ensuring continuous availability for users.",
+        "Employed AWS services, notably S3 integrated with CloudFront and Lambda functions, to deploy the frontend project, thereby optimizing loading times and mitigating latency issues.",
+        "Demonstrated expertise in frontend development, AWS deployment, and optimizing user experience.",
+        "Contributed to improving the overall performance and reliability of the application."
+      ]
+    },
+    {
+      "name": "MediBuddy",
+      "role": "SDE Intern",
+      "startDate": "Jan 2023",
+      "endDate": "May 2023",
+      "location": "Bangalore, India",
+      "description": [
+        "Designed, developed, and maintained a full-stack web application utilizing Next.js for the frontend and Nest.js for the backend. The platform was architected following a microservices approach, serving as a marketplace for third-party vendors to efficiently sell their products.",
+        "Employed event logging to handle user interactions and gather data on user behavior.",
+        "Collaborated with a team of developers and designers to gather requirements, design, and develop new features and enhancements.",
+        "Developed various APIs with authentication to enable secure communication between the frontend and backend.",
+        "Incorporated new APIs into an ongoing project to enhance existing features and functionality."
+      ]
+    },
+    {
+      "name": "NamaSYS",
+      "role": "Python Developer Intern",
+      "startDate": "Jan 2022",
+      "endDate": "Mar 2022",
+      "location": "New Delhi, India",
+      "description": [
+        "Developed efficient programs to automate tasks involving scraping data etc.",
+        "Successfully debugged and resolved code issues related to data storage in the database, ensuring accurate data management.",
+        "Worked with different APIs and SQL databases to retrieve and store data for data analysis.",
+        "Implemented an end-to-end solution on Microsoft Azure, involving the creation of virtual machines and Developed a automation script to retrieve data from APIs and securely store it in Azure Blob Storage."
+      ]
+    }
+  ]
 }

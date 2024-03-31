@@ -17,12 +17,12 @@ export default function Bio() {
       <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
         {bio.header}
       </div>
-      <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
+      {/* <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
         {bio.frontend}
       </div>
       <div className="text-lg text-lightText dark:text-darkText lg:w-[50%] text-center">
         {bio.backend}
-      </div>
+      </div> */}
     </div>
   );
 }
