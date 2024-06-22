@@ -50,8 +50,8 @@ export default function Work() {
         Work Experience
       </h1>
 
-      <div className="flex flex-col space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row">
-        <div className="w-[98%] place-self-center flex flex-row gap-5 lg:gap-0 lg:gap-3 lg:flex-col overflow-auto hide-scrollbar">
+      <div className="w-full flex flex-col items-center justify-center gap-5 lg:gap-0 lg:gap-10 lg:flex-row lg:items-start">
+        <div className="sm:w-[98%] lg:w-fit place-self-center flex flex-row gap-5 lg:gap-0 lg:gap-3 lg:flex-col overflow-auto hide-scrollbar">
           {work.companies.map((company, index) => (
             <div key={index} className="flex flex-row gap-1 items-center">
               <div
