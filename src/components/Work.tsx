@@ -45,18 +45,15 @@ export default function Work() {
   const [value, setValue] = useState(0);
 
   return (
-    <div className="flex flex-col justify-center items-center mt-32 space-y-20">
+    <div className="flex flex-col justify-center items-center mt-32 gap-10">
       <h1 className="text-2xl lg:text-3xl font-bold lg:font-black text-lightText text-transparent bg-clip-text bg-gradient-to-r from-lightText to-[#626161] dark:bg-gradient-to-r dark:from-darkText dark:to-[#424141]">
         Work Experience
       </h1>
 
       <div className="flex flex-col space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row">
-        <div className="flex flex-row gap-5 lg:gap-0 lg:space-y-3 lg:flex-col">
+        <div className="w-[98%] place-self-center flex flex-row gap-5 lg:gap-0 lg:gap-3 lg:flex-col overflow-auto hide-scrollbar">
           {work.companies.map((company, index) => (
-            <div
-              key={index}
-              className="flex flex-row space-x-2 items-center"
-            >
+            <div key={index} className="flex flex-row gap-1 items-center">
               <div
                 className={`w-2 rounded-full ${
                   index === value
