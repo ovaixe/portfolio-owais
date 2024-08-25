@@ -7,7 +7,7 @@ export default function Resume() {
         My Resume
       </h1>
       <Link
-        href="resume_bhat_owais.pdf"
+        href="https://drive.google.com/file/d/1f-V4-W8tRt0NoPOU19GMubz-i1wlRXzh/view?usp=drive_link"
         download
         target="blank"
         className="text-lg text-lightBeforeHover dark:text-darkBeforeHover border-2 dark:border-lightText rounded-lg py-3 px-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 duration-300"
