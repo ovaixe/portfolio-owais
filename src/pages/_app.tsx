@@ -2,6 +2,8 @@ import "@/styles/globals.css";
 import { Outfit } from "next/font/google";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
+
 import Navbar from '@/components/Navbar'
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -18,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <main className={`${outfit.className} bg-lightBG dark:bg-darkBG`}>
         <Navbar />
         <Component {...pageProps} />
+        <Analytics />
       </main>
     </>
   );
