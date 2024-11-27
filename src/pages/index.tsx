@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { MdEmail } from "react-icons/md";
-
 import Bio from "@/components/Bio";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";

@@ -2,16 +2,17 @@
   "companies": [
     {
       "name": "The Tarzan Way",
-      "role": "Frontend Developer",
+      "role": "Full-stack Developer",
       "startDate": "Jan 2024",
       "endDate": "Present",
       "location": "Noida, Uttar Pradesh, India",
       "description": [
+        "As a Full Stack Developer specializing in Django, DRF, and Postgres, with a focus on backend functionalities and data migration.",
+        "Demonstrated expertise in optimizing APIs, reducing database queries by 60%, improving API response time by over 50%, and implementing Dynamic Serializers to streamline payload and round-trip time.",
+        "Successfully managed multiple projects, overseeing data synchronization, creating database population scripts, and integrating 3rd party APIs, including GPT APIs.",
         "Implemented enhancements and resolved issues within the frontend project, introducing user-centric features aimed at facilitating streamlined data manipulation for enhanced usability.",
-        "Successfully deployed updates without any downtime, ensuring continuous availability for users.",
-        "Employed AWS services, notably S3 integrated with CloudFront and Lambda functions, to deploy the frontend project, thereby optimizing loading times and mitigating latency issues.",
-        "Demonstrated expertise in frontend development, AWS deployment, and optimizing user experience.",
-        "Contributed to improving the overall performance and reliability of the application."
+        "Proficiently deployed updates without any downtime, ensuring continuous availability for users.",
+        "Employed AWS services, notably S3 integrated with Cloud Front and Lambda functions, to deploy the frontend project, thereby optimizing loading times and mitigating latency issues."
       ]
     },
     {
@@ -21,10 +22,10 @@
       "endDate": "May 2023",
       "location": "Bangalore, India",
       "description": [
-        "Designed, developed, and maintained a full-stack web application utilizing Next.js for the frontend and Nest.js for the backend. The platform was architected following a microservices approach, serving as a marketplace for third-party vendors to efficiently sell their products.",
+        "Interned as an SDE at Medibuddy, contributing to the development of a platform enabling external vendors to sell products directly to Medibuddy’s large customer base. The platform was architected following a microservices approach.",
         "Employed event logging to handle user interactions and gather data on user behavior.",
-        "Collaborated with a team of developers and designers to gather requirements, design, and develop new features and enhancements.",
-        "Developed various APIs with authentication to enable secure communication between the frontend and backend.",
+        "Developed and managed vendor onboarding processes, allowing vendors to list products with comprehensive details, including pricing and inventory.",
+        "Utilized Postgres as the primary database and integrated Redis for caching to enhance data retrievalspeed and reduce latency.",
         "Incorporated new APIs into an ongoing project to enhance existing features and functionality."
       ]
     },
