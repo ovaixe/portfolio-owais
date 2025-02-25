@@ -2,12 +2,12 @@
   "companies": [
     {
       "name": "The Tarzan Way",
-      "role": "Full-stack Developer",
+      "role": "Software Engineer",
       "startDate": "Jan 2024",
       "endDate": "Present",
       "location": "Noida, Uttar Pradesh, India",
       "description": [
-        "As a Full Stack Developer specializing in Django, DRF, and Postgres, with a focus on backend functionalities and data migration.",
+        "As a Software Engineer specializing in Django, DRF, and Postgres, with a focus on backend functionalities and data migration.",
         "Demonstrated expertise in optimizing APIs, reducing database queries by 60%, improving API response time by over 50%, and implementing Dynamic Serializers to streamline payload and round-trip time.",
         "Successfully managed multiple projects, overseeing data synchronization, creating database population scripts, and integrating 3rd party APIs, including GPT APIs.",
         "Implemented enhancements and resolved issues within the frontend project, introducing user-centric features aimed at facilitating streamlined data manipulation for enhanced usability.",
